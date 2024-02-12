@@ -1,4 +1,4 @@
-package edu.icet.service.impl;
+package edu.icet.service;
 
 import edu.icet.dto.Book;
 
