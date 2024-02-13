@@ -47,4 +47,10 @@ public class BookServiceImpl implements BookService {
         Optional<BookEntity> byId = repository.findById(id);
         return mapper.map(byId, Book.class);
     }
+
+//    @Override
+//    public Book getBookTitle(String title) {
+//        Optional<BookEntity> byTitle = repository.findByTitle()
+//        return mapper.map(byId, Book.class);
+//    }
 }

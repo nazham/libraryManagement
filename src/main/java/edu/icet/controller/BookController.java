@@ -38,4 +38,9 @@ public class BookController {
         return service.getBookId(id);
     }
 
+//    @GetMapping("search/{title}")
+//    public Book getBookById(@PathVariable String title){
+//        return service.getBookId(title);
+//    }
+
 }

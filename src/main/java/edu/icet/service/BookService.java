@@ -10,5 +10,6 @@ public interface BookService {
     List<BookEntity> getBooks();
     boolean deleteBook(Long id);
     Book getBookId(Long id);
+    //Book getBookTitle(String title);
 
 }
